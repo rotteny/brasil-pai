@@ -1,6 +1,7 @@
 # Brasil API
 
-Instalação
+## Instalação
+
 ```shell
 composer require rotteny/brasil-api
 ```
