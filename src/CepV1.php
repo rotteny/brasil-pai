@@ -11,8 +11,7 @@ class CepV1 {
             $response = $client->get(self::BASE_URL . $cep);
             return json_decode($response->getBody());
         } catch (\Throwable $th) {
-            var_dump($th->getMessage());
-            die;
+            die($th->getMessage());
         }
 
     }
