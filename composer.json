@@ -1,6 +1,7 @@
 {
     "name": "rotteny/brasil-api",
     "description": "Busca de cep com a API Brasil API",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Rotteny\\BrasilApi\\": "src/"
